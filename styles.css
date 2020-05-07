@@ -1,0 +1,145 @@
+#container {
+    background-image: url(/static/pink.jpg);
+    background-position:center;
+    width: auto;
+    height: auto;
+}
+#header_top {
+    color: white;
+}
+/*#main_table_background {*/
+/*    background-color: white !important;*/
+}
+#button_browsed{
+    background-color:#DB7093;
+    border-color:#DB7093;
+}
+footer {
+    position: fixed !important;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.column {
+  float: left;
+  width: 50%;
+  position: relative;
+    left: 1em;
+}
+.table {
+    background-image: url(/static/white.jpeg);
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#main_table_background {
+    background-image: url(/static/white.jpeg);
+
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #E0BBE4 !important;
+    border-color: #E0BBE4;
+}
+.btn-secondary, .btn-secondary:hover, .btn-secondary:active, .btn-secondary:visited {
+    background-color: #957DAD !important;
+    border-color: #957DAD;
+}
+.btn-success, .btn-success:hover, .btn-success:active, .btn-success:visited {
+    background-color: #D291BC !important;
+    border-color: #D291BC;
+}
+.btn-danger, .btn-danger:hover, .btn-danger:active, .btn-danger:visited {
+    background-color: #FEC8D8 !important;
+    border-color: #FEC8D8;
+}
+.btn-warning, .btn-warning:hover, .btn-warning:active, .btn-warning:visited {
+    background-color: #FFDFD3 !important;
+    border-color: #FFDFD3;
+}
+.form-control {
+    font-family: 'Raleway', serif;
+}
+body
+{
+    font-family: 'Raleway', serif;
+    background-image: url('/static/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100em 100em;
+    background-position: center;
+}
+#navbar-example2{
+    width: 31.5em;
+    overflow-y: auto;
+    text-align: center;
+}
+#browsed_scroll {
+    width: 31.5em;
+    height: 500px;
+    overflow: scroll;
+    text-align: left;
+}
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: xx-large;
+}
+
+/* colors for brand */
+nav .navbar-brand .pink
+{
+    color: #FFC0CB;
+}
+nav .navbar-brand .darkpink
+{
+    color: #C71585;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+main .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+main
+{
+    /* scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* center contents */
+    text-align: center;
+}
+
+main img
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
+.jumbotron
+{
+  background-color: #FFC0CB;
+  color: white;
+  text-align: center;
+  padding: 2%;
+}
+
+.left
+{
+    text-align: left;
+}
+
+}
